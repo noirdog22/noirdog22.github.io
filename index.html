@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap 101 Template</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-default navbar-fixed-top">
+      <nav class="navbar navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed"data-toggle="collapse"data-target="#navbarEexample8">
@@ -18,17 +19,17 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#">
+			<a class="navbar-brand" href="https://noirdog22.github.io/">
 				<img src="img/01.png">
 			</a>
 		</div>
 		
 		<div class="collapse navbar-collapse" id="navbarEexample8">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#">My Github</a></li>
-				<li><a href="#">Facebook</a></li>
-				<li><a href="#">About ME</a></li>
-				<li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
+				<li><a href="https://github.com/noirdog22">My Github</a></li>
+				<li><a href="https://www.facebook.com/saori.tanaka.3956">Facebook</a></li>
+				<li><a href="#aboutme">About ME</a></li>
+				<li><a href="#contact"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
 			</ul>
 		</div>
 	</div>
@@ -42,7 +43,7 @@
     <div class="img">
     <img src="img/02.png">
     </div>
-    <p class="abouthere">ここについて</p>
+    <p class="abouthere"><strong>Saori Tanaka</strong>の制作一覧を掲載しております。</p>
   </div>
   <!-- イントロダクションここまで -->
   
@@ -53,39 +54,71 @@
     </div>
     <div class="row">
       <div class="col-md-4 col-sm-4">
-        <div class="thumbnail"><img src=""></div>
-        <div class="caption">sample sample1</div>
+        <div class="thumbnail"><img src="http://placeimg.com/640/480/animals/sepia"></div>
+        <div class="caption">
+          <h4>sample sample1</h4>
+          </div>
       </div>
             <div class="col-md-4 col-sm-4">
-        <div class="thumbnail"><img src=""></div>
-        <div class="caption">sample sample2</div>
+        <div class="thumbnail"><img src="http://placeimg.com/640/480/animals/sepia"></div>
+        <div class="caption">
+          <h4>sample sample2</h4>
+          </div>
       </div>
             <div class="col-md-4 col-sm-4">
-        <div class="thumbnail"><img src=""></div>
-        <div class="caption">sample sample3</div>
+        <div class="thumbnail"><img src="http://placeimg.com/640/480/animals/sepia"></div>
+        <div class="caption">
+          <h4>sample sample3</h4>
+          </div>
       </div>
     </div>
   </div>
   <!-- ポートフォリオここまで -->
   <!-- 自己紹介 -->
-  <div class="aboutme">
+  <div id="aboutme">
         <div class="img">
       <img src="img/04.png">
     </div>
     <div class="row">
-      <div class="col-md-8 col-sm-8">自己紹介</div>
-      <div class="col-md-4 col-sm-4"><img src="img/05.png"></div>
+      <div class="col-md-2 col-sm-2"></div>
+      <div class="col-md-6 col-sm-6 profile">
+        <h3>Profile</h3>
+        <h4>Saori Tanaka</h4>
+        <p>大阪生まれ、大阪育ち</p>
+        <p>エステティシャン、エステメーカー営業を経て、現在、日本全国を飛び回るブライダルプランナーをしております。<br/>
+        <br />
+        全く異業種の私がなぜこのブートキャンプに参加したかと言いますと……<br />
+        昨年、所属会社のHP、カタログ、チラシ等制作するにあたり、社内で唯一PCに明るかったばかりに制作担当者にめでたく就任。
+        （といっても、タイピングがそこそこ早くて、iPhoneを使っていて、フリック入力ができるからという人選）<br />
+        web制作の知識は１０年近く前の高校時代の授業のみ。<br />よって、<br /><br />
+        「div……とは……？」<br />
+        「ヘッダー……ナビ……？　margin:0 auto;？＜ｃｅｎｔｅｒ＞でくくればいいのでは……？あれ、だめ？」<br /><br />
+        というレベルからなんとか２週間でWordPressのオリジナルテーマにてHPを作成。<br />
+        当時はただただ大変！だったweb制作が、だんだんと楽しくなってきて、<br /><br />
+        「これは私の新しいスキル（武器）になるかも！　このスキルを磨いて海外で働きたい！」<br /><br />
+        と一念発起。
+        素人ながら、好奇心と行動力だけを両手にブートキャンプへ参加し、スキルを磨く日々です。</p>
+      </div>
+      <div class="col-md-2 col-sm-2"><img src="img/05.png"></div>
+       <div class="col-md-2 col-sm-2"></div>     
     </div>
   </div>
   <!-- 自己紹介ここまで -->
   <!-- コンタクト -->
-  <div class="contact">
+  <div id="contact">
     <div class="img">
       <img src="img/06.png">
     </div>
-    <p class="mail">info-xxx@gmail.com</p>
+    <p class="mail">noirdog22@gmail.com</p>
     <div class="mailinfo">
-      メールについて
+      お問い合わせは、メールで直接ご相談ください。<br />
+<ul>
+<li>ご氏名</li>
+<li>メールアドレス</li>
+<li>お問い合わせもしくはご相談内容</li>
+</ul>
+をお書き添えの上、上記メールアドレスまで直接メールにてご相談ください。<br />
+５日以内に返信の無い場合にはお手数ですが、再度お問い合わせ下さい。
     </div>
   </div>
   </div>
