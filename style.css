@@ -1,9 +1,10 @@
-nav{
+.nav-yellow{
     height: 75px;
-    background-color: yellow;
+    background-color: yellow!important;
     font-size: 18px;
     font-family:Times , serif;
     font-weight:900;
+    border-color:yellow!important;
 }
 
 .navbar-right{
